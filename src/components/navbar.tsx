@@ -15,11 +15,11 @@ export default function Navbar({className} : {className? : string}){
               </Link>
               <MenuItem setActive={setActive} active={active} item="All Courses">
                 <div className="flex flex-col space-y-4 text-sm">
-                  <HoveredLink href="/web-dev">All Courses</HoveredLink>
-                  <HoveredLink href="/interface-design">Basic Music Theory</HoveredLink>
-                  <HoveredLink href="/seo">Advance Composition</HoveredLink>
-                  <HoveredLink href="/branding">Song Writting</HoveredLink>
-                  <HoveredLink href="/branding">Music Production</HoveredLink>
+                  <HoveredLink href="/courses">All Courses</HoveredLink>
+                  <HoveredLink href="/basic-music-theory">Basic Music Theory</HoveredLink>
+                  <HoveredLink href="/composition">Advance Composition</HoveredLink>
+                  <HoveredLink href="/writtin">Song Writting</HoveredLink>
+                  <HoveredLink href="/production">Music Production</HoveredLink>
                 </div>
               </MenuItem>
               <Link href={"/contact"}>
