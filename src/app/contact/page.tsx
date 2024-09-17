@@ -2,7 +2,7 @@
 import { Meteors } from '@/components/ui/meteors';
 import React, { FormEvent, useState } from 'react'
 
-function page() {
+function Page() {
 
     const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
         event.preventDefault();
@@ -57,4 +57,4 @@ function page() {
   )
 }
 
-export default page
+export default Page
