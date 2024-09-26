@@ -30,7 +30,7 @@ To get started with the Music Course Selling App, follow these steps:
 2. Navigate to the project directory:
 
    ```
-   cd music-course-app
+   cd Music-school
 
    ```
 
